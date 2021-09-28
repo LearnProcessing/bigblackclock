@@ -1,0 +1,32 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-color: white;
+  width: 100%;
+}
+
+.navIcon {
+  color: rgb(156, 154, 154);
+}
+
+.clockIcon {
+  border-style: solid;
+  border-color: red;
+}
+
+.timerIcon {
+  border-style: solid;
+  border-color: green;
+}
+
+.stopwatchIcon {
+  border-style: solid;
+  border-color: blue;
+}
+
+.alarmIcon {
+  border-style: solid;
+  border-color: pink;
+}

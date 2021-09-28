@@ -9,16 +9,26 @@
   border-color: red;
   height: 20%;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .midContainer {
   border-style: solid;
   border-color: green;
-  height: 60%;
+  height: 70%;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .botContainer {
   border-style: solid;
-  height: 20%;
+  height: 10%;
   border-color: blue;
   background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

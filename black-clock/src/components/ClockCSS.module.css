@@ -1,0 +1,13 @@
+.clockContainer {
+  height: 85%;
+  width: 100%;
+  border-style: solid;
+  border-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockComponent {
+  color: rgb(156, 154, 154);
+}
