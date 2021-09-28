@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  background-color: black;
+  height: 100vh;
+}

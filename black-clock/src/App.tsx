@@ -1,8 +1,12 @@
 import React from 'react';
+import MainPage
+ from './pages/MainPage';
+import AppCSS from './AppCSS.module.css'
 
-function App( ){
+function App() {
   return (
-    <div className="App">
+    <div className={AppCSS.appContainer}>
+      <MainPage/>
     </div>
   );
 }
