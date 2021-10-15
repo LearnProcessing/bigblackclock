@@ -1,0 +1,57 @@
+.settingContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.timerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.controlContainer {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.settingHour {
+  width: 12%;
+  text-align: center;
+}
+
+.settingMinute {
+  width: 12%;
+  text-align: center;
+}
+
+.settingSecond {
+  width: 12%;
+  text-align: center;
+}
+
+.text {
+  font-size: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+}
+
+.textSpan{
+  font-size: 156px;
+}
+
+.timerText {
+  font-size: 96px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}

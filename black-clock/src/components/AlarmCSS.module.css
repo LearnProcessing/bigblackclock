@@ -1,0 +1,99 @@
+.alarmContainer {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeComponent {
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 156px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  pointer-events: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+}
+
+.dayComponent {
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 48px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+}
+
+.bellIconContainer {
+  display: flex;
+  position: absolute;
+  right: 24%;
+}
+
+.bellIcon {
+  color: orange;
+}
+
+.upButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  position: absolute;
+  margin-bottom: 292px;
+  z-index: 999;
+}
+
+.upButtonHour {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.upButtonMinute {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.upButtonMeridiem {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.downButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  position: absolute;
+  margin-top: 72px;
+}
+
+.downButtonHour {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.downButtonMinute {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.downButtonMeridiem {
+  color: whitesmoke;
+  cursor: pointer;
+}

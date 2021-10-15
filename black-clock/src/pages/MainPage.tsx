@@ -1,8 +1,10 @@
 import React from "react";
-import MainPageCSS from './MainPageCSS.module.css'
+import MainPageCSS from './MainPageCSS.module.css';
 import Navbar from "../components/Navbar";
 import Clock from "../components/Clock";
-import SettingButton from "../components/SettingButton";
+import Alarm from '../components/Alarm';
+import Stopwatch from '../components/Stopwatch';
+import Timer from "../components/Timer";
 
 export default function MainPage() {
   return(
@@ -12,10 +14,11 @@ export default function MainPage() {
     </div>
     <div className={MainPageCSS.midContainer}>
       <Clock />
-      <SettingButton />
+      <Alarm />
+      <Stopwatch />
+      <Timer />
     </div>
     <div className={MainPageCSS.botContainer}>
-      clock app by ram project
     </div>
   </div>)
 }

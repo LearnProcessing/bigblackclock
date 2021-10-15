@@ -3,10 +3,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .topContainer {
-  border-style: solid;
-  border-color: red;
   height: 20%;
   background-color: black;
   display: flex;
@@ -14,8 +13,6 @@
   align-items: center;
 }
 .midContainer {
-  border-style: solid;
-  border-color: green;
   height: 70%;
   background-color: black;
   display: flex;
@@ -23,9 +20,7 @@
   align-items: center;
 }
 .botContainer {
-  border-style: solid;
   height: 10%;
-  border-color: blue;
   background-color: black;
   color: white;
   display: flex;

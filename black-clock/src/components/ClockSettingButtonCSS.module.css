@@ -1,0 +1,25 @@
+.settingContainer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.settingIcon {
+  color: rgb(156, 154, 154);
+}
+
+.settingIcon:hover {
+  cursor: pointer;
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  from {
+      transform: scale(1) rotate(0deg);
+  }
+  to {
+      transform: scale(1) rotate(360deg);
+  }
+}

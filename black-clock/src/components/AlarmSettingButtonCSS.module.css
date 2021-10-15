@@ -1,0 +1,15 @@
+.settingContainer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  bottom: 0%;
+}
+
+.switchBorderline {
+  background-color: rgb(212, 212, 212);
+  border-radius: 12px;
+}
+
+
