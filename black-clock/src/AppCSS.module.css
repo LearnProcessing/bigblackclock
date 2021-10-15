@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+.appContainer {
+  background-color: black;
+  height: 100vh;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.mobileContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: orange;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.mobileText{
+  font-family: cursive;
+  text-align: center;
+  font-size: xx-large;
+  color: maroon;
+}
+
+@media only screen and (max-width: 700px) {
+  .appContainer { 
+    display: none; 
+  };
+}
+
+@media only screen and (min-width: 700px) {
+  .mobileText {
+    display: none;
+  };
+}

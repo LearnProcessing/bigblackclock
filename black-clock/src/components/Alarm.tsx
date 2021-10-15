@@ -147,9 +147,6 @@ export default function Clock() {
             </div>
           </div>
           <AlarmSettingButton />
-          {/* <audio loop>
-            <source src={alarmSound} type="audio/wav"/>
-          </audio> */}
         </div>
         : null
       }

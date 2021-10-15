@@ -43,7 +43,6 @@
 
 .bellIconContainer {
   display: flex;
-  position: absolute;
   right: 24%;
 }
 
@@ -54,10 +53,11 @@
 .upButtonContainer {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 720px;
   position: absolute;
   margin-bottom: 292px;
   z-index: 999;
+  margin-right: 60px;
 }
 
 .upButtonHour {
@@ -78,9 +78,10 @@
 .downButtonContainer {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 720px;
   position: absolute;
   margin-top: 72px;
+  margin-right: 60px;
 }
 
 .downButtonHour {

@@ -20,17 +20,17 @@
 }
 
 .settingHour {
-  width: 12%;
+  width: 160px;
   text-align: center;
 }
 
 .settingMinute {
-  width: 12%;
+  width: 160px;
   text-align: center;
 }
 
 .settingSecond {
-  width: 12%;
+  width: 160px;
   text-align: center;
 }
 
