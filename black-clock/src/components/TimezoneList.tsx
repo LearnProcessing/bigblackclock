@@ -51,10 +51,11 @@ export default function TimezoneList() {
     <div className={TimezoneListCSS.timezoneListContainer}>
       <div className={TimezoneListCSS.timezoneSearchContainer}>
         <input 
-        type="text" 
+        type="search" 
         placeholder='search &#128269;' 
         className={TimezoneListCSS.timezoneSearchInput} 
-        ref={textInput}
+        // ref={textInput}
+        autoFocus
         onChange={debouncedChangeHandler} />
       </div>
       <List
